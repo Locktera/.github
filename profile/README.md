@@ -1,4 +1,6 @@
-![Locktera CORE Banner](./profile/assets/Locktera-core-api-github.png)
+<p align="center">
+  <img src="assets/Locktera-core-api-github.png" alt="Locktera AI Security Architecture" width="1000">
+</p>
 
 # Locktera
 
