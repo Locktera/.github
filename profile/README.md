@@ -1,10 +1,6 @@
-<p align="center">
-  <img src="assets/hero-banner.png" alt="Locktera CORE - Persistent Data Governance for Enterprise AI, Applications, and Critical Data" width="1000">
-</p>
+![Locktera CORE Banner](./profile/assets/Locktera-core-api-github.png)
 
 # Locktera
-
-## Persistent Data Governance for Enterprise AI, Applications, and Critical Data# Locktera
 
 ## Persistent Data Governance for Enterprise AI, Applications, and Critical Data
 
@@ -104,7 +100,7 @@ Locktera CORE extends existing enterprise infrastructure by adding persistent da
 Protect AI prompts, datasets, retrieval-augmented generation (RAG) knowledge bases, model outputs, AI-generated content, and enterprise AI workflows with persistent governance throughout the AI lifecycle.
 
 <p align="center">
-  <img src="assets/ai-security-workflow.png" alt="Locktera AI Security Architecture" width="1000">
+  <img src="assets/ai-workflow.png" alt="Locktera AI Security Architecture" width="1000">
 </p>
 
 ---
