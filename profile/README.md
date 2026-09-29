@@ -169,7 +169,7 @@ Traditional infrastructure security protects networks, servers, endpoints, and s
 Locktera CORE applies encryption, access control, policy enforcement, audit logging, and governance directly to the data itself, ensuring protection remains wherever the data is stored, shared, or processed.
 
 <p align="center">
-  <img src="assets/platform-comparison.png" alt="Traditional Infrastructure Security versus Persistent Data Governance" width="1000">
+  <img src="assets/Traditional-Infrastructure-Security-versus-Persistent-Data-Governance.png.png" alt="Traditional Infrastructure Security versus Persistent Data Governance" width="1000">
 </p>
 
 ---
