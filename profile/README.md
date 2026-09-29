@@ -26,7 +26,7 @@ Unlike traditional infrastructure security, Locktera protects the data itself. F
 Locktera CORE extends existing enterprise infrastructure by adding persistent data governance directly to the data itself. Identity, policy enforcement, encryption, audit, and reporting remain with the data throughout its lifecycle without requiring changes to existing storage infrastructure.
 
 <p align="center">
-  <img src="assets/platform-architecture.png" alt="Locktera CORE Platform Architecture" width="1000">
+  <img src="assets/AI-workflow-security.png" alt="Locktera CORE Platform Architecture" width="1000">
 </p>
 
 ---
@@ -102,7 +102,7 @@ Locktera CORE extends existing enterprise infrastructure by adding persistent da
 Protect AI prompts, datasets, retrieval-augmented generation (RAG) knowledge bases, model outputs, AI-generated content, and enterprise AI workflows with persistent governance throughout the AI lifecycle.
 
 <p align="center">
-  <img src="assets/ai-workflow.png" alt="Locktera AI Security Architecture" width="1000">
+  <img src="assets/Locktera-AI-Security-Architecture.png" alt="Locktera AI Security Architecture" width="1000">
 </p>
 
 ---
@@ -157,7 +157,7 @@ Gain complete visibility into every protected file with enterprise reporting des
 - Enterprise monitoring
 
 <p align="center">
-  <img src="assets/audit-compliance-reporting.png" alt="Locktera Audit and Compliance Reporting" width="1000">
+  <img src="assets/Locktera-Audit-and-Compliance-Reporting.png" alt="Locktera Audit and Compliance Reporting" width="1000">
 </p>
 
 ---
