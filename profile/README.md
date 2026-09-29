@@ -109,7 +109,7 @@ Locktera protects AI models, datasets, RAG knowledge bases, retrieved content, p
 Security controls remain associated with protected data as it moves through AI pipelines, applications, storage environments, and downstream systems.
 
 <p align="center">
-  <img src="assets/AI-workflow.png" alt="Locktera AI Security Architecture" width="1000">
+  <img src="assets/Locktera-AI-Security-Architecture.png" alt="Locktera AI Security Architecture" width="1000">
 </p>
 
 ### AI Model Security
