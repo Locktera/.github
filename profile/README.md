@@ -180,7 +180,7 @@ Locktera complements these controls by applying persistent security directly to 
 Encryption, authorization, policy enforcement, integrity protection, revocation, and audit controls can remain associated with protected data as it moves across applications, storage environments, cloud platforms, AI workflows, and organizational boundaries.
 
 <p align="center">
-  <img src="assets/platform-comparison.png" alt="Traditional Infrastructure Security versus Persistent Data Governance" width="1000">
+  <img src="assets/Traditional-Infrastructure-Security-versus-Persistent-Data-Governance.png" alt="Traditional Infrastructure Security versus Persistent Data Governance" width="1000">
 </p>
 
 ---
