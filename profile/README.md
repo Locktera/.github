@@ -46,7 +46,7 @@ Locktera CORE enables developers to add persistent data security directly to app
 Rather than relying only on the security of the system currently storing or processing the data, Locktera applies security controls directly to protected data so those controls can persist as the data moves across applications, storage environments, cloud platforms, AI workflows, and organizational boundaries.
 
 <p align="center">
-  <img src="assets/platform-architecture.png" alt="Locktera CORE Platform Architecture" width="1000">
+  <img src="assets/AI-workflow-security.png" alt="Locktera CORE Platform Architecture" width="1000">
 </p>
 
 ---
