@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Locktera-core-api-github .png" alt="Locktera AI Security Architecture" width="1000">
+  <img src="assets/Locktera-core-api-github.png" alt="Locktera CORE API" width="1000">
 </p>
 
 # Locktera
@@ -11,61 +11,47 @@ Protect files, AI models, RAG data, and sensitive application data with APIs and
 **Security that travels with your data—not just the system storing it.**
 
 [API Documentation](https://docs.locktera.com/api-documentation/get-started) •
-[Quick Start Guides](https://docs.locktera.com/api-documentation/guides/core-file-security/) •
+[Quick Start](https://docs.locktera.com/api-documentation/guides/core-file-security/) •
 [Free Developer Trial](https://share.locktera.com/#/trial) •
+[API Reference](https://docs.locktera.com/api-documentation/reference) •
 [Architecture Guides](https://docs.locktera.com/api-documentation/guides/architecture-guides/) •
-[Pricing](https://locktera.com/plans-and-pricing/) •
 [Website](https://locktera.com)
 
 ---
 
-### Start Building
+## Start Building
 
-**[CORE API](https://docs.locktera.com/api-documentation/get-started)** — Add persistent data security directly to your applications and workflows.
+**[Getting Started](https://docs.locktera.com/api-documentation/get-started)**  
+Set up your development environment and make your first Locktera API call.
 
-**[5-Minute Quickstart](https://docs.locktera.com/api-documentation/guides/core-file-security/)** — Protect your first file and apply persistent access controls.
+**[API Reference](https://docs.locktera.com/api-documentation/reference)**  
+Explore authentication, endpoints, policies, and API operations.
 
-**[API Reference](https://docs.locktera.com/api-documentation/reference)** — Explore authentication, endpoints, policies, and implementation details.
+**[Core File Security Quickstart](https://docs.locktera.com/api-documentation/guides/core-file-security/)**  
+Protect a file and apply persistent access controls.
 
-**[Free Developer Trial](https://share.locktera.com/#/trial)** — Get credentials and start testing Locktera.
+**[Free Developer Trial](https://share.locktera.com/#/trial)**  
+Create an account and start testing Locktera CORE.
 
----
+**Base API URL**
 
----
-
-Locktera CORE enables developers to embed persistent data governance directly into applications, AI workflows, storage platforms, and secure data pipelines using REST APIs and enterprise SDKs.
-
-Unlike traditional infrastructure security, Locktera protects the data itself. Files remain protected throughout their lifecycle with persistent file-level encryption, policy enforcement, immutable audit logging, and revocable access wherever the data is stored, shared, or processed.
+`https://api.locktera.com/api/v1`
 
 ---
 
 # Locktera CORE Platform Architecture
 
-Locktera CORE extends existing enterprise infrastructure by adding persistent data governance directly to the data itself. Identity, policy enforcement, encryption, audit, and reporting remain with the data throughout its lifecycle without requiring changes to existing storage infrastructure.
+Locktera CORE enables developers to add persistent data security directly to applications, AI workflows, storage platforms, and data pipelines.
+
+Rather than relying only on the security of the system currently storing or processing the data, Locktera applies security controls directly to protected data so those controls can persist as the data moves across applications, storage environments, cloud platforms, AI workflows, and organizational boundaries.
 
 <p align="center">
-  <img src="assets/AI-workflow-security.png" alt="Locktera CORE Platform Architecture" width="1000">
+  <img src="assets/platform-architecture.png" alt="Locktera CORE Platform Architecture" width="1000">
 </p>
 
 ---
 
-## Why Developers Choose Locktera
-
-- Integrate persistent security into applications in minutes
-- Protect data wherever it travels
-- Bring Your Own Storage (BYOS)
-- Microsoft Entra ID integration
-- Role-Based Access Control (RBAC)
-- Persistent file-level encryption
-- Immutable audit trails
-- Chain-of-custody reporting
-- SIEM integration
-- Enterprise AI security
-- Commercial licensing and enterprise support
-
----
-
-## Platform Capabilities
+## Core Security Capabilities
 
 ### Data Protection
 
@@ -82,45 +68,49 @@ Locktera CORE extends existing enterprise infrastructure by adding persistent da
 ### Identity & Access
 
 - Microsoft Entra ID integration
-- OAuth authentication
-- SAML Single Sign-On (SSO)
+- OAuth 2.0 authentication
+- SAML 2.0 Single Sign-On (SSO)
 - Role-Based Access Control (RBAC)
-- Organization, user, role, and recipient-level policies
+- Organization, user, role, group, and recipient-level policies
+- Time-based access controls
+- IP and network-based access policies
+- Geographic access policies
+- Revocation at the protected-object or recipient level
 
 ### Storage & Deployment
 
 - Bring Your Own Storage (BYOS)
-- Azure Blob Storage
+- Microsoft Azure Blob Storage
 - Amazon S3 and S3-compatible storage
 - Google Cloud Storage
+- Wasabi
+- Akamai NetStorage
 - Hybrid deployments
 - On-premises deployments
 - Multi-cloud architectures
 
-### Audit, Reporting & Compliance
+### Security Operations
 
 - Immutable audit trails
 - Chain-of-custody reporting
-- Access reports
-- Change logs
-- Compliance reports
-- Privacy reports
-- Risk assessment reporting
-- Viewer activity reports
-
-### Security Operations
-
+- Access and viewer activity
+- Access denied events
+- Policy and authorization changes
+- Download and usage activity
 - SIEM integration
-- Security event reporting
-- Access denied reporting
-- Policy change visibility
-- Enterprise monitoring support
+- Security and compliance reporting
 
 ---
 
-# AI Security Architecture
+# AI Security
 
-Protect AI prompts, datasets, retrieval-augmented generation (RAG) knowledge bases, model outputs, AI-generated content, and enterprise AI workflows with persistent governance throughout the AI lifecycle.
+Locktera protects AI models, datasets, RAG knowledge bases, retrieved content, prompts, outputs, and other AI artifacts with persistent data-level security.
+
+Security controls remain associated with protected data as it moves through AI pipelines, applications, storage environments, and downstream systems.
+
+<p align="center">
+  <img src="assets/AI-workflow.png" alt="Locktera AI Security Architecture" width="1000">
+</p>
 
 ### AI Model Security
 
@@ -128,141 +118,137 @@ Protect model artifacts from unauthorized access, modification, replacement, or 
 
 Apply persistent encryption, authorization, integrity verification, revocation, and audit controls directly to protected AI model files.
 
-<p align="center">
-  <img src="assets/Locktera-AI-Security-Architecture.png" alt="Locktera AI Security Architecture" width="1000">
-</p>
+### Secure RAG & Enterprise AI
+
+Protect datasets, RAG knowledge bases, retrieved enterprise data, prompts, model outputs, and AI-generated content.
+
+Control access to protected enterprise data before it is released into downstream AI workflows while maintaining authorization and auditability around sensitive retrieved content.
 
 ---
 
-## Enterprise Use Cases
+# What You Can Build
 
-### Enterprise AI
+### Secure AI & RAG
 
-Protect prompts, datasets, RAG knowledge bases, model outputs, AI-generated content, and enterprise AI workflows.
+Protect models, datasets, RAG knowledge bases, retrieved content, prompts, outputs, and other sensitive AI artifacts.
 
-### Healthcare
+### Secure Applications
 
-Protect diagnostic imaging, patient records, referrals, medical reports, and clinical collaboration while supporting HIPAA and healthcare privacy requirements.
+Add persistent encryption, authorization, integrity verification, revocation, and audit controls to sensitive application data.
 
-### Surveillance & Digital Evidence
+### Protected Data Exchange
 
-Secure surveillance video, body camera footage, investigation files, digital evidence, and chain-of-custody reporting.
+Maintain security controls as sensitive data moves between users, applications, organizations, and cloud environments.
 
-### Backup & Archive
+### Secure Storage & Data Pipelines
 
-Protect backup repositories, archives, exported databases, disaster recovery environments, and long-term storage.
+Protect sensitive data across cloud storage, archives, backup environments, AI pipelines, analytics platforms, and enterprise workflows.
 
-### Legal & Professional Services
+### Digital Evidence & Chain of Custody
 
-Secure contracts, case files, due diligence documents, intellectual property, and confidential client communications.
-
-### Financial Services
-
-Protect customer records, board documents, financial reports, loan files, mergers and acquisitions data, and regulated financial information.
-
-### Critical Infrastructure
-
-Secure engineering documentation, operational records, maintenance documentation, and sensitive operational data.
+Protect surveillance video, investigation files, digital evidence, and other sensitive records while maintaining access history and chain-of-custody reporting.
 
 ---
 
 # Audit & Compliance Reporting
 
-Gain complete visibility into every protected file with enterprise reporting designed for security, compliance, governance, and digital forensics.
+Locktera provides visibility into how protected data is accessed and used across applications, users, and systems.
 
 ### Reporting Capabilities
 
 - Immutable audit trails
 - Chain-of-custody reporting
-- User activity reports
-- Access reports
-- Policy change history
-- Compliance reporting
-- Risk assessment reporting
-- Access denied reporting
+- User and viewer activity
+- Access granted and denied events
+- Policy and authorization changes
+- Download and usage activity
 - SIEM integration
-- Enterprise monitoring
+- Security and compliance reporting
 
 <p align="center">
-  <img src="assets/Locktera-Audit-and-Compliance-Reporting.png" alt="Locktera Audit and Compliance Reporting" width="1000">
+  <img src="assets/audit-compliance-reporting.png" alt="Locktera Audit and Compliance Reporting" width="1000">
 </p>
 
 ---
 
-# Traditional Infrastructure Security vs. Persistent Data Governance
+# Infrastructure Security + Persistent Data Security
 
-Traditional infrastructure security protects networks, servers, endpoints, and storage. Once data leaves the infrastructure perimeter, security controls are often lost.
+Infrastructure security protects networks, identities, endpoints, applications, servers, and storage.
 
-Locktera CORE applies encryption, access control, policy enforcement, audit logging, and governance directly to the data itself, ensuring protection remains wherever the data is stored, shared, or processed.
+Locktera complements these controls by applying persistent security directly to protected data.
+
+Encryption, authorization, policy enforcement, integrity protection, revocation, and audit controls can remain associated with protected data as it moves across applications, storage environments, cloud platforms, AI workflows, and organizational boundaries.
 
 <p align="center">
-  <img src="assets/Traditional-Infrastructure-Security-versus-Persistent-Data-Governance.png" alt="Traditional Infrastructure Security versus Persistent Data Governance" width="1000">
+  <img src="assets/platform-comparison.png" alt="Traditional Infrastructure Security versus Persistent Data Governance" width="1000">
 </p>
 
 ---
 
-## Developer Resources
+# Developer Resources
 
 | Resource | Description |
 |----------|-------------|
 | **[Getting Started](https://docs.locktera.com/api-documentation/get-started)** | Set up your development environment and make your first API call. |
-| **[Free Trial & Developer Sandbox](https://share.locktera.com/#/trial)** | Evaluate Locktera CORE in a hosted developer environment. |
-| **[Core File Security](https://docs.locktera.com/api-documentation/guides/core-file-security/)** | Protect files with persistent encryption, access control, and governance. |
-| **[Infrastructure Security](https://docs.locktera.com/api-documentation/guides/infrastructure-security/)** | Learn how Locktera extends traditional infrastructure security. |
-| **[Enterprise Architecture](https://docs.locktera.com/api-documentation/guides/enterprise-architecture/)** | Enterprise deployment patterns and reference architectures. |
-| **[Architecture Guides](https://docs.locktera.com/api-documentation/guides/architecture-guides/)** | Integration architectures and deployment scenarios. |
-| **[Securing AI with Locktera](https://docs.locktera.com/api-documentation/guides/securing-ai-systems-with-locktera/)** | Protect AI prompts, datasets, RAG knowledge bases, and model outputs with persistent data governance. |
 | **[API Reference](https://docs.locktera.com/api-documentation/reference)** | Explore Locktera CORE endpoints, authentication, policies, and API operations. |
+| **[Free Developer Trial](https://share.locktera.com/#/trial)** | Evaluate Locktera CORE in a hosted developer environment. |
+| **[Core File Security](https://docs.locktera.com/api-documentation/guides/core-file-security/)** | Protect files with persistent encryption, access control, and governance. |
+| **[Infrastructure Security](https://docs.locktera.com/api-documentation/guides/infrastructure-security/)** | Learn how Locktera complements traditional infrastructure security. |
+| **[Enterprise Architecture](https://docs.locktera.com/api-documentation/guides/enterprise-architecture/)** | Explore enterprise deployment patterns and reference architectures. |
+| **[Architecture Guides](https://docs.locktera.com/api-documentation/guides/architecture-guides/)** | Review integration architectures and deployment scenarios. |
+| **[Securing AI with Locktera](https://docs.locktera.com/api-documentation/guides/securing-ai-systems-with-locktera/)** | Protect AI models, datasets, RAG knowledge bases, prompts, and model outputs with persistent data security. |
 
 ---
 
 # Get Started in 5 Minutes
+
+1. **Create a free developer account** using the [Locktera Developer Trial](https://share.locktera.com/#/trial).
+2. **Generate an API key** for your development environment.
+3. **Authenticate** with the Locktera CORE API.
+4. **Protect your first file** and apply an access policy.
+5. **Review access and audit activity** for the protected object.
+
 **Base API URL**
 
 `https://api.locktera.com/api/v1`
 
-1. Create a free developer account.
-2. Generate an API key.
-3. Protect your first file using the Locktera CORE API.
-4. Apply access policies.
-5. Review audit reports and activity logs.
+[View the Getting Started Guide →](https://docs.locktera.com/api-documentation/get-started)
 
 ---
 
 ## SDKs
 
-Enterprise SDKs are available for licensed customers and approved technology partners.
+Locktera CORE can be integrated through REST APIs and enterprise SDKs.
 
-Contact Locktera to request SDK access.
+SDKs are available for supported enterprise integrations and approved technology partners.
+
+For SDK access or integration assistance, contact **sales@locktera.com**.
 
 ---
 
 ## Pricing & Licensing
 
-Locktera CORE is commercial software.
+Locktera CORE is commercial enterprise software with free developer trial access available for evaluation and integration testing.
 
-Use of the APIs, SDKs, and hosted services requires a valid Locktera commercial license or approved trial access.
+[View Pricing & Licensing →](https://locktera.com/plans-and-pricing/)
 
-Learn more:
-
-https://locktera.com/plans-and-pricing/
+[Start a Free Developer Trial →](https://share.locktera.com/#/trial)
 
 ---
 
-## Partner With Locktera
+## Build With Locktera
 
-Locktera partners with ISVs, SaaS providers, AI platforms, healthcare technology companies, cybersecurity vendors, storage providers, and enterprise software companies to embed persistent data governance directly into their solutions.
+Locktera works with ISVs, SaaS platforms, AI companies, cybersecurity vendors, healthcare technology providers, storage platforms, and enterprise software companies to embed persistent data security into applications and workflows.
 
-### Connect With Us
+For technology partnerships, integrations, or SDK access, contact **sales@locktera.com**.
 
-🌐 Website  
-https://locktera.com
+---
 
-📘 Developer Documentation  
-https://docs.locktera.com
+## Connect
 
-🚀 Free Trial & Developer Sandbox  
-https://share.locktera.com/#/trial
+**[Website](https://locktera.com)** •
+**[Developer Documentation](https://docs.locktera.com)** •
+**[Free Developer Trial](https://share.locktera.com/#/trial)** •
+**[Pricing](https://locktera.com/plans-and-pricing/)**
 
-📧 Sales  
-sales@locktera.com
+Questions about integrations or enterprise deployments: **sales@locktera.com**
