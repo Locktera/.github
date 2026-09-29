@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/AI-workflow.png" alt="Locktera AI Security Architecture" width="1000">
+  <img src="assets/Locktera-core-api-github .png" alt="Locktera AI Security Architecture" width="1000">
 </p>
 
 # Locktera
