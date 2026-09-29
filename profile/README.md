@@ -4,14 +4,32 @@
 
 # Locktera
 
-## Persistent Data Governance for Enterprise AI, Applications, and Critical Data
+## Build Persistent Data Security Into Your Application
+
+Protect files, AI models, RAG data, and sensitive application data with APIs and SDKs for encryption, authorization, integrity verification, revocation, and audit.
+
+**Security that travels with your data—not just the system storing it.**
 
 [API Documentation](https://docs.locktera.com/api-documentation/get-started) •
 [Quick Start Guides](https://docs.locktera.com/api-documentation/guides/core-file-security/) •
-[Free Trial & Developer Sandbox](https://share.locktera.com/#/trial) •
+[Free Developer Trial](https://share.locktera.com/#/trial) •
 [Architecture Guides](https://docs.locktera.com/api-documentation/guides/architecture-guides/) •
-[Pricing & Licensing](https://locktera.com/plans-and-pricing/) •
+[Pricing](https://locktera.com/plans-and-pricing/) •
 [Website](https://locktera.com)
+
+---
+
+### Start Building
+
+**[CORE API](https://docs.locktera.com/api-documentation/get-started)** — Add persistent data security directly to your applications and workflows.
+
+**[5-Minute Quickstart](https://docs.locktera.com/api-documentation/guides/core-file-security/)** — Protect your first file and apply persistent access controls.
+
+**[API Reference](https://docs.locktera.com/api-documentation/reference)** — Explore authentication, endpoints, policies, and implementation details.
+
+**[Free Developer Trial](https://share.locktera.com/#/trial)** — Get credentials and start testing Locktera.
+
+---
 
 ---
 
@@ -51,12 +69,15 @@ Locktera CORE extends existing enterprise infrastructure by adding persistent da
 
 ### Data Protection
 
-- Persistent file-level encryption
-- Client-side encryption
-- Quantum-safe protection
+- AES-256-GCM authenticated encryption
+- SHA-3-512 integrity protection
+- Falcon post-quantum digital signatures
+- Persistent file-level security
 - Revocable access
 - Time-based access policies
-- Granular policy enforcement
+- Recipient and role-based authorization
+- Programmable policy enforcement
+- Immutable protected containers
 
 ### Identity & Access
 
@@ -100,6 +121,12 @@ Locktera CORE extends existing enterprise infrastructure by adding persistent da
 # AI Security Architecture
 
 Protect AI prompts, datasets, retrieval-augmented generation (RAG) knowledge bases, model outputs, AI-generated content, and enterprise AI workflows with persistent governance throughout the AI lifecycle.
+
+### AI Model Security
+
+Protect model artifacts from unauthorized access, modification, replacement, or distribution.
+
+Apply persistent encryption, authorization, integrity verification, revocation, and audit controls directly to protected AI model files.
 
 <p align="center">
   <img src="assets/Locktera-AI-Security-Architecture.png" alt="Locktera AI Security Architecture" width="1000">
@@ -185,10 +212,14 @@ Locktera CORE applies encryption, access control, policy enforcement, audit logg
 | **[Enterprise Architecture](https://docs.locktera.com/api-documentation/guides/enterprise-architecture/)** | Enterprise deployment patterns and reference architectures. |
 | **[Architecture Guides](https://docs.locktera.com/api-documentation/guides/architecture-guides/)** | Integration architectures and deployment scenarios. |
 | **[Securing AI with Locktera](https://docs.locktera.com/api-documentation/guides/securing-ai-systems-with-locktera/)** | Protect AI prompts, datasets, RAG knowledge bases, and model outputs with persistent data governance. |
+| **[API Reference](https://docs.locktera.com/api-documentation/reference)** | Explore Locktera CORE endpoints, authentication, policies, and API operations. |
 
 ---
 
 # Get Started in 5 Minutes
+**Base API URL**
+
+`https://api.locktera.com/api/v1`
 
 1. Create a free developer account.
 2. Generate an API key.
