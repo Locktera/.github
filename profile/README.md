@@ -166,7 +166,7 @@ Locktera provides visibility into how protected data is accessed and used across
 - Security and compliance reporting
 
 <p align="center">
-  <img src="assets/audit-compliance-reporting.png" alt="Locktera Audit and Compliance Reporting" width="1000">
+  <img src="assets/Locktera-Audit-and-Compliance-Reporting.png" alt="Locktera Audit and Compliance Reporting" width="1000">
 </p>
 
 ---
